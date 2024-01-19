@@ -1,18 +1,24 @@
-# Credits: zaza102030
-# Original script created by zaza102030
+# OG script owner and credits goes to zaza102030
 # GitHub: https://github.com/zaza102030
-# Date uploaded (europe calendar): 2024/1/19, 00:00 AM
+# Date uploaded (europe calendar): 2024/1/19, 00:04 AM
 # Original script: https://gist.github.com/zaza102030/8950e8c84d50e590d7f057622b16f330
+
+# Welcome to my Python quiz game! I created this project during my free time after a month of learning Python and programming in general. It's a simple yet pretty fun, it pulls questions from a special API.
+
+# VERY IMPORTANT FOR SCRIPT TO WORK: Before you start, ensure you have the 'requests' library installed. If not, you can install it by running the following command in your terminal (cmd, PowerShell, etc.): pip install requests
+
+# A crucial note: This script requires an internet connection to fetch questions from the API. If you're offline, you can always add your own questions and answers, though I kept it focused on on-line functionality. Feel free to modify the script as per your preferences.
+
+# Here is the script, have a nice day!
 
 from numbers import Number
 from numpy import integer, number
 import requests
 import random
 
-print("# Credits: zaza102030")
-print("# Original script created by zaza102030")
+print("OG script owner and credits goes to zaza102030")
 print("# GitHub: https://github.com/zaza102030\n")
-print("# Date uploaded (europe calendar): 2024/1/19, 00:00 AM")
+print("# Date uploaded (europe calendar): 2024/1/19, 00:04 AM")
 print("# Original script: https://gist.github.com/zaza102030/8950e8c84d50e590d7f057622b16f330")
 
 class QuizGame:
