@@ -1,15 +1,19 @@
-# Welcome to my Python quiz game! I created this project during my free time after a month of learning Python and programming in general. It's a simple yet pretty fun, it pulls questions from a special API.
- 
-# VERY IMPORTANT FOR SCRIPT TO WORK: Before you start, ensure you have the 'requests' library installed. If not, you can install it by running the following command in your terminal (cmd, PowerShell, etc.): pip install requests
-
-# A crucial note: This script requires an internet connection to fetch questions from the API. If you're offline, you can always add your own questions and answers, though I kept it focused on on-line functionality. Feel free to modify the script as per your preferences.
-
-# Ignore me and go for the script:
+# Credits: zaza102030
+# Original script created by zaza102030
+# GitHub: https://github.com/zaza102030
+# Date uploaded (europe calendar): 2024/1/19, 00:00 AM
+# Original script: https://gist.github.com/zaza102030/8950e8c84d50e590d7f057622b16f330
 
 from numbers import Number
 from numpy import integer, number
 import requests
 import random
+
+print("# Credits: zaza102030")
+print("# Original script created by zaza102030")
+print("# GitHub: https://github.com/zaza102030\n")
+print("# Date uploaded (europe calendar): 2024/1/19, 00:00 AM")
+print("# Original script: https://gist.github.com/zaza102030/8950e8c84d50e590d7f057622b16f330")
 
 class QuizGame:
     def __init__(self):
@@ -85,7 +89,7 @@ def play():
 
         print(f"\nLeaderboard: Wins = {quiz_game.wins}, Loses = {quiz_game.loses}")
 
-        play_again = input('Would you like to play again (y/n)? ').lower()
+        play_again = input('Would you like to play again (Y(es)/N(o))? ').lower()
         if play_again not in ['y', 'yes']:
             quiz_game.reset_leaderboard()
             print('Have a good day!')
